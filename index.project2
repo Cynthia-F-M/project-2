@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>project</title>
+<style>
+	body {background-color:coral;}
+	table, th, td {border: 1px solid black;}
+	.note {font-size: 120%; color: red;}
+	#myheader {background-color: darkgreen; padding: 40px;text-align: center;}</style>	
+</head>
+
+<body>
+<h1 style="text-align:center;background-color:palegreen;"><span style="border: 5px solid darkgreen">Cactus!</span></h1>
+	<hr>
+	<h2 style="color:yellow;text-align:center;">The Desert Plant</h2>
+	<hr>
+    <img src="images/group cactus.jpg" width="650" height="450" alt="Beautiful desert">
+<h3>The Many Shapes of the Desert</h3>
+	<button type="button"
+			onclick="myfunction()">Click Me!</button>
+	<p id="demo"> This is a demonstration.</p>
+	
+	<script>
+	document.getelementbyid("demo").innerhtml= "Did it work?";</script>
+	<p title="Do Not Touch">The desert is home to a large variety of <i>cactus</i>. Made to retain <span style="color:blue;font-weight:bold">water</span> inside them, they are adapted quite well to the environment they live in. Tall and commanding, or small and hidden, most cactus have spines instead of leaves to protect them from predators. </p>
+	<table style="width:100%">
+	<tr>
+		<th>Growth habit</th>
+		<th>Description</th>
+		</tr>
+	<tr>
+		<td>Arborescent</td>
+		<td>tree-like</td>
+		</tr>
+	<tr><td>Columnar</td>
+		<td>Cylinder-shaped stems</td>
+		</tr>
+	<tr><td>Globular</td>
+		<td>small stems, shorter, ball shaped</td>
+		</tr>
+	<tr><td>Other forms</td>
+		<td>climbers, leaf-like, or no spines</td>
+		</tr></table>
+<h3>Prickley</h3>
+<p>Sometimes they can be round and unassuming.</p>
+<div style="background-image: url('images/round cactus.jpg');color:white;font-size:125%;background-repeat:no-repeat;">
+<br>
+<br>
+<br>	
+	<pre><b>  Though not tall, these small, round cactus are still impressive.</b><br>
+	<b>     Some round cactus can get fairly big.</b><br>
+	<b>          Some are very small.</b><br>
+	<b>     They all have different sizes of spines.</b><br>
+	<b>             Some even have hair!</b><br></pre>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+</div>
+<h3>Pretty Colors</h3>
+<img src="images/cactus flowers.jpg" width="650" height="450" alt="Big desert flower">
+	<p>Most cactus <span style="border: 1px solid black">flower</span>. Some make small flowers but some, like the one above, have flowers almost bigger than the cactus itself!</p>
+<h3>Tasty!</h3>
+<p>Some cactus have fruit that grow from it.</p>
+	<div style="background-image: url('images/cactus fruit.jpg');color:darkgreen;background-repeat:no-repeat;font-size:125%">
+	<br>
+	<br>
+		<pre><b>          You can eat fruit raw.</b><br>
+		<b>You can press it into juice.</b><br>
+		<b>   You can make jellies or candy.</b><br>
+		<b>     You can even make fancy desserts.</b><br></pre>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>	
+	
+	</div>
+<p>Make sure before you eat it you take all the spines off first!</p>
+	<h4>Cactus Fruit is a <span class="note">Good Source</span> of:</h4>
+	<ul>
+	<li>Vitamin C</li>
+	<li>Vitamin E</li>
+	<li>Vitamin K</li>
+	<li>Beta-carotene</li>
+	<li>Potassium</li>
+	<li>Magnesium</li>
+	<li>Calcium</li>
+	<li>Phosphorus</li>
+	</ul>
+<h3>Not So Edible Destraction</h3>
+
+	<iframe src="https://cynthia-f-m.github.io/html1.2/" height="200" width="300" title="mushrooms"></iframe>	
+	
+	
+<h3>Home Decor</h3>
+<img src="images/house cactus.jpg" width="650" height="450" alt="Succulent">
+	<p>The beauty and remarkable ease in which cactus can be maintained makes them very popular to landscape with. Some come in such small sizes, they can even be kept in a pot inside a house. With a variety of colors and sizes to choose from, cactus truly are a natural beauty to enjoy. For a more indepth look into cactus and what makes them so amazing check out <a href="https://en.wikipedia.org/wiki/Cactus">Cactus in Wiki!</a></p>
+	
+</body>
+</html>
